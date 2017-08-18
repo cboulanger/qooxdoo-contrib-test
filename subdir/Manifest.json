@@ -1,0 +1,23 @@
+{
+	"info": {
+		"name": "Qooxdoo contrib test",
+		"summary": "A test Manifest",
+		"description": "A dummy contrib for testing the new contrib system. Do not install.",
+		"category": [ "test" ],
+		"homepage": "https://github.com/cboulanger/qooxdoo-contrib-test/",
+		"license": "Apache License 2.0",
+		"authors": [
+			{ "name": "Christian Boulanger (cboulanger)", "email": "info@bibliograph.org" }
+		],
+		"version": "master",
+		"qooxdoo-versions": [ "~5.0.0" ],
+  },
+	"provides": {
+		"namespace": "qxcontribtest",
+		"encoding": "utf-8",
+		"class": "source/class",
+		"resource": "source/resource",
+		"translation": "source/translation",
+		"type": "library"
+	}
+}
